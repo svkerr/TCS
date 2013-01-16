@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1356732669661.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "144EE5BD",
+    "lastKnownWriteTime" : 140265041952769,
+    "path" : null,
+    "properties" : {
+        "contentUrl" : "content?title=Data%3A+hardware3&file=3b29a9468af44f7cb2a7de18adf59afc.htm",
+        "displayedObservations" : 3,
+        "displayedVariables" : 2,
+        "title" : "Data: hardware3",
+        "totalObservations" : 3,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

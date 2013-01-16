@@ -1,0 +1,16 @@
+{
+    "contents" : "GenStats <- function(x,column) {\n  theMean <- apply(x[column],2,mean)\n  stanDev <- apply(x[column],2,sd)\n  median <- apply(x[column],2,median)\n  meanAbsDev <- apply(x[column],2,mad)\n  MIN <- apply(x[column],2,min)\n  MAX <- apply(x[column],2,max)\n  cat('Min: ', MIN,'\\n')\n  cat('Max: ', MAX,'\\n')\n  cat('Mean: ',theMean,'\\n')\n  cat('Median',median,'\\n')\n  cat('SD: ', stanDev,'\\n')\n  cat('MAD: ',meanAbsDev,'\\n')\n}\n",
+    "created" : 1355928605114.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2058662325",
+    "id" : "AF6E1F74",
+    "lastKnownWriteTime" : 1356028089,
+    "path" : "~/R_Files/TCS/GenStats.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

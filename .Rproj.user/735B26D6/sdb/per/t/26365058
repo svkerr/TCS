@@ -1,0 +1,16 @@
+{
+    "contents" : "confint <- function(x,alpha = 0.05) {\n  conflevel <- (1 - alpha)*100\n  stderr <- sd(x)/sqrt(length(x))\n  tcrit <- qt(1 - alpha/2, length(x)-1)\n  margin <- stderr * tcrit\n  lower <- mean(x) - margin\n  upper <- mean(x) + margin\n  cat(conflevel, 'Percent Confidence Interval','\\n')\n  cat('Mean:', mean(x), 'Std. Error:', stderr, '\\n')\n  cat('Lower Limit:', lower, '\\n')\n  cat('Upper Limit:', upper, '\\n')\n  length(x)\n}",
+    "created" : 1355971553950.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "478951473",
+    "id" : "26365058",
+    "lastKnownWriteTime" : 1355971580,
+    "path" : "~/R_Files/TCS/confint.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
